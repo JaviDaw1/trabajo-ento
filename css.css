@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+     background: white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#container{
+
+    width: 100%;
+    margin: 0px auto;
+    border: 0px solid black;
+}
+
+.flex-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 125px;
+
+}
+
+.flex-container div{
+    border: 2px solid black;
+    background: white;
+    color:black;
+}
+
+header{
+    background:url(https://www.basic-fit.com/on/demandware.static/-/Sites/default/dw35106537/Website_ClubPhoto_Default.jpg);
+    padding-bottom: 50px;
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom:3px solid black;
+}
+
+nav{
+    background-color: white;
+    color: white;
+    height:0px ;
+    border-bottom: 0px solid black;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.enlace{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li{
+    font-weight:600;
+    float: left;
+    padding-top: 5px;
+    list-style:none;
+    text-align: center;
+    margin: 20px;
+    line-height: 50 px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.foto{
+    margin-right: 60px;
+
+}
+
+.boton {
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    color:#ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: black;
+}
+
+.boton:hover{
+    color: blue;
+}
+
+.enviar{
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    color:#ffffff;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:orangered;
+}
+
+.lado{
+    float: right;
+}
+
+#content{
+    float: left;
+    color: white;
+    width: calc(100% - 100px);
+    min-height: 500px;
+    background: rgb(48, 48, 48);
+    padding: 40px;
+}
+
+#content1{
+    color: white;
+    width: calc(35% - 75px);
+    min-height: 500px;
+    background: rgb(48, 48, 48);
+    padding: 40px;
+}
+
+.colocacion{
+    padding-top: 20px;
+}
+
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: calc(60% - 100px);
+    border-bottom: 1px solid black;
+}
+
+.div1{
+    padding-bottom: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    background: white;
+    color: black;
+    width: calc(100% - 100px);
+    margin-top: 15px;
+    height: calc(65% - 100px);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.article2{
+
+    text-align: center;
+    float: right;
+    background: rgb(48, 48, 48);
+    color: white;
+    margin-top: 15px;
+    height: calc(64% - 100px);
+    width: calc(60% - 100px);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+
+.article3{
+
+    text-align: center;
+    float: left;
+    background:  white;
+    color: black;
+    width: calc(40% - 100px);
+    margin-top: 15px;
+    height: calc(65% - 100px);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+footer{
+    background: white;
+    color: black;
+    text-align: center;
+    float: center;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50 px;
+}
+
+table, th, td{
+    margin-bottom: 0px;
+    padding: 3px;
+    margin-left: 0px;
+    border: 2px solid black;
+    font-size:medium;
+    color: white;
+    border-color: orangered;
+    text-align: center;
+}
+
+
+.clase{
+    float: center;
+    text-align: left;
+
+}
+
+.instalaciones{
+    text-decoration-line:underline;
+    font-size:xx-large;
+}
+
+.foto{
+    margin-left: 20px;
+}
+
+.producto{
+    background: white;
+    color:black;
+    margin-bottom: 20px;
+    width: calc(60%-100px);
+    height: calc(60%-100px);
+}
+
+.apuntate{
+    float: left;
+    background:  white;
+    color: black;
+    width:20%;
+    margin-top: 15px;
+    height: 50%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.apuntate1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: salmon;
+    width: 100%;
+}
+
+.apuntate1>div {
+    margin: 10px;
+    text-align: center;
+}
+
+.contacto{
+    font-size: large;
+
+}
+
+.contactos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datosusu{
+    font-size:large;
+    width: 100%;
+    text-align: center;
+}
+
+.datosusu input{
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 20px;
+    line-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.datosusu label{
+    font-size: larger;
+}
+
+.dinero{
+    border-top: 2px solid black;
+    padding:2px;
+}
+
+.iniciosesion{
+    font-size: x-large;
+    text-align: center;
+}
+
+.iniciosesion input{
+    width: 50%;
+    border-radius: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.archivo{
+    border-radius: 20px;
+    width: 10%;
+}
+
+.cesta{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.cesta1{
+    font-size: xx-large;
+    color: orangered;
+}
+
+.cesta2{
+    color: black;
+}
+
+.recibir{
+    font-size:smaller;
+    color:green;
+}
+
+.buscador{
+    margin-left: 200px;
+}
+
+.iniciosesion input:focus{ 
+    color: #222; 
+    background: #97ABBE; 
+    border-color:#999;
+}
+
+.iniciosesion input:valid{
+    box-shadow: 0 0 2px rgba(0,255,0,0.4);
+}
+
+.iniciosesion input:valid:focus{ 
+    background: #80BE93; 
+    box-shadow: none;  
+}
+
+.iniciosesion input:invalid{
+    box-shadow: 0 0 2px rgba(255,0,0,0.4);
+}
+
+.iniciosesion input:invalid:focus{ 
+    background: #CB9089; 
+    box-shadow: none;
+}
